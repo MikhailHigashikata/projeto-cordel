@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Prosto+One&display=swap');
+
+:root{
+    --font-padrão: "Prosto One", sans-serif;
+    --font-cordel: "Charm", cursive;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body{
+    background-color: white;
+    font-family: var(--font-padrão);
+}
+
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 64px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 0px;
+
+}
+
+main section{
+    line-height: 3em;
+    background-color: white;
+    padding-left: 50px;
+    min-width: 200px;
+}
+
+.wi{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center left;
+    height: 500px;
+}
+
+.wi>p{
+    color: white;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.479);
+    display: inline-block
+}
+
+section#flor{
+    background-image: url("../imagens/background001.jpg");
+}
+
+section#livro{
+    
+    background-image: url("../imagens/background002.jpg");
+}
+
+main p{
+    margin: 48px 0px;
+    font-size: x-large;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
